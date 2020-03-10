@@ -1,10 +1,10 @@
 :root {
-  --color-red: #4b4b4b;
-  --color-grey: #333232;
+  --color-grey: #4b4b4b;
+  --color-darkgrey: #333232;
 }
 p {
-  color: var(--color-red);
-
+  color: var(--color-grey);
+  font-family: "Righteous", cursive;
   margin-left: 10px;
 }
 a {
@@ -21,10 +21,10 @@ li {
   margin-top: 6px;
 }
 .col-title {
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   padding-top: 15px;
   color: rgb(167, 167, 167);
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 .container {
   background: rgb(211, 210, 210);
@@ -37,12 +37,12 @@ li:hover {
   position: relative;
   border-radius: 10px;
   box-shadow: 0 0 25px 0 #1a8b60;
-  font-size: 14px;
 }
 li:hover p {
   color: #ececec;
   border-bottom: 3px ridge rgb(224, 115, 12);
   font-size: large;
+  font-family: "Righteous", cursive;
 }
 li:hover img {
   border-radius: 50%;
